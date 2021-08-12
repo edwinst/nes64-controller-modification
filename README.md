@@ -2,7 +2,7 @@
 
 by Edwin Steiner
 
-https://youtu.be/c/EdwinSteiner
+https://youtube.com/c/EdwinSteiner
 
 ## What this is about
 
