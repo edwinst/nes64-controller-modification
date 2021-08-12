@@ -36,6 +36,7 @@ The controller on the left in the image has been modified. Notice the larger swi
 * the NES64 (PCB + the controller housing, pads, and cable)
 * a 3-way switch with 2 parallel ON-ON-ON contact configurations (see below for details)
 * a few inches of low-voltage wire
+* some insulating tape or sheet material
 * tool for cutting PCB and enclosure (Dremel with cutoff disk works well)
 * small tool for polishing (e.g. Dremel) or a piece of fine sand paper
 * soldering iron + accessories
