@@ -99,8 +99,8 @@ XXX diodes
 1. Make the cutout for the 3-way switch in the enclosure.
 
    Depending on whether your controller already had a cutout for the original 2-way switch,
-   you need to enlarge or create the cutout in the enclosure. Make sure that the cutout is
-   just large enough to slide the switch to its outermost position in either direction.
+   you need to enlarge or create the cutout in the enclosure. The cutout should be
+   just large enough so you can slide the switch to its outermost position in either direction.
 
    ![](https://github.com/edwinst/nes64-controller-modification/blob/main/nes64-enclosure-cuout.png?raw=true)
 
@@ -113,7 +113,7 @@ XXX diodes
 
 1. Apply hot glue or epoxy to mechanically stabilize the switch.
 
-   If everything works fine, open the controller again and use hot glue or epoxy to secure the switch
+   If everything tested out fine, open the controller again and use hot glue or epoxy to secure the switch
    in place from both sides of the PCB. Take care that the glue does not block any of the screws or plastic parts
    of the enclosure upon assembly and also that the glue does not make its way into the contacts of the switch.
 
@@ -125,5 +125,5 @@ XXX diodes
 
 ## Diode version
 
-![](https://github.com/edwinst/nes64-controller-modification/blob/main/nes64-diode-version-button-side.png?raw=true)
 ![](https://github.com/edwinst/nes64-controller-modification/blob/main/nes64-diode-version-cable-side.png?raw=true)
+![](https://github.com/edwinst/nes64-controller-modification/blob/main/nes64-diode-version-button-side.png?raw=true)
