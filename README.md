@@ -27,6 +27,9 @@ options for the "up"-direction to:
 1. both "UP" and "A" work
 1. only "A" works
 
+The controller on the left in the image has been modified. Notice the larger switch at the shoulder of the controller:
+![](https://github.com/edwinst/nes64-controller-modification/blob/main/nes64-new-switch.png?raw=true)
+
 ## What you need
 
 * the NES64 (PCB + the controller housing, pads, and cable)
@@ -47,13 +50,38 @@ XXX diodes
 ## How to do it
 
 1. open the NES64 and take out the PCB
+
+   Here is how the PCB looks before the modification. Note the location of the trace going from the switch to the "A" button:
+   ![](https://github.com/edwinst/nes64-controller-modification/blob/main/nes64-before-cable-side.png?raw=true)
+
+   The other side looks like this. Note the location of the trace going to the switch to the "UP" button:
+   ![](https://github.com/edwinst/nes64-controller-modification/blob/main/nes64-before-button-side.png?raw=true)
+
 1. mark the cutout on the PCB
+
+   Mark the cutout you need to make for the switch on the PCB. The image below shows the dimensions
+   I used for my type of switch. The tighter the switch fits the cutout, the easier it will be
+   to mechanically secure the switch in place later.
+
+   ![](https://github.com/edwinst/nes64-controller-modification/blob/main/nes64-cutout-cable-side.png?raw=true)
+
 1. cut the PCB
+
+   ![](https://github.com/edwinst/nes64-controller-modification/blob/main/nes64-cutout-after-cable-side.png?raw=true)
+   ![](https://github.com/edwinst/nes64-controller-modification/blob/main/nes64-cutout-after-button-side.png?raw=true)
+
 1. remove the coating from two traces of the PCB
 1. tin the exposed traces
 1. solder the connections for the 3-way switch
+
+   ![](https://github.com/edwinst/nes64-controller-modification/blob/main/nes64-installed-button-side.png?raw=true)
+   ![](https://github.com/edwinst/nes64-controller-modification/blob/main/nes64-installed-cable-side.png?raw=true)
+
 1. apply isolation as needed
 1. make the cutout for the 3-way switch in the enclosure
+
+   ![](https://github.com/edwinst/nes64-controller-modification/blob/main/nes64-enclosure-cuout.png?raw=true)
+
 1. test assembly
 1. apply hot glue or epoxy to mechanically stabilize the switch
 1. final assembly, enjoyment (XXX make sure the cable is properly positioned)
@@ -62,15 +90,9 @@ XXX diodes
 
 XXX
 
-![](https://github.com/edwinst/nes64-controller-modification/blob/main/nes64-before-button-side.png?raw=true)
-![](https://github.com/edwinst/nes64-controller-modification/blob/main/nes64-before-cable-side.png?raw=true)
-![](https://github.com/edwinst/nes64-controller-modification/blob/main/nes64-cutout-after-button-side.png?raw=true)
-![](https://github.com/edwinst/nes64-controller-modification/blob/main/nes64-cutout-after-cable-side.png?raw=true)
-![](https://github.com/edwinst/nes64-controller-modification/blob/main/nes64-cutout-cable-side.png?raw=true)
+![](https://github.com/edwinst/nes64-controller-modification/blob/main/nes64-schematics.png?raw=true)
+
+## Diode version
+
 ![](https://github.com/edwinst/nes64-controller-modification/blob/main/nes64-diode-version-button-side.png?raw=true)
 ![](https://github.com/edwinst/nes64-controller-modification/blob/main/nes64-diode-version-cable-side.png?raw=true)
-![](https://github.com/edwinst/nes64-controller-modification/blob/main/nes64-enclosure-cuout.png?raw=true)
-![](https://github.com/edwinst/nes64-controller-modification/blob/main/nes64-installed-button-side.png?raw=true)
-![](https://github.com/edwinst/nes64-controller-modification/blob/main/nes64-installed-cable-side.png?raw=true)
-![](https://github.com/edwinst/nes64-controller-modification/blob/main/nes64-new-switch.png?raw=true)
-![](https://github.com/edwinst/nes64-controller-modification/blob/main/nes64-schematics.png?raw=true)
