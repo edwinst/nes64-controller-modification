@@ -54,7 +54,7 @@ XXX diodes
    Here is how the PCB looks before the modification. Note the location of the trace going from the switch to the "A" button:
    ![](https://github.com/edwinst/nes64-controller-modification/blob/main/nes64-before-cable-side.png?raw=true)
 
-   The other side looks like this. Note the location of the trace going to the switch to the "UP" button:
+   The other side looks like this. Note the location of the trace going from the switch to the "UP" button:
    ![](https://github.com/edwinst/nes64-controller-modification/blob/main/nes64-before-button-side.png?raw=true)
 
 1. mark the cutout on the PCB
@@ -65,26 +65,57 @@ XXX diodes
 
    ![](https://github.com/edwinst/nes64-controller-modification/blob/main/nes64-cutout-cable-side.png?raw=true)
 
-1. cut the PCB
+1. Cut the PCB, then use the polishing tool to expose the traces going to the "A" button and to the "UP" button.
+
+   Note that for my type of switch, I had to cut grooves into the PCB at the end of the cutout to accomodate
+   the mounting tabs of the switch.
+
+   Remove the coating covering the traces at the two indicated positions. The exposed part should be a few millimeters
+   of shiny copper. I used a Dremel with a polishing tool for that, which worked well but take care that you work
+   in a well ventilated area since the coating creates some nasty fumes. Alternatively, use some very fine sandpaper
+   to remove the coating until you see clean copper.
 
    ![](https://github.com/edwinst/nes64-controller-modification/blob/main/nes64-cutout-after-cable-side.png?raw=true)
    ![](https://github.com/edwinst/nes64-controller-modification/blob/main/nes64-cutout-after-button-side.png?raw=true)
 
-1. remove the coating from two traces of the PCB
-1. tin the exposed traces
-1. solder the connections for the 3-way switch
+1. Tin the exposed traces with the soldering iron.
+
+   Make sure the copper is clean before tinning. (Maybe clean it with isopropyl alcohol.)
+   Use flux if the tin does not bond to the copper easily.
+
+1. Solder the connections for the 3-way switch according to the wiring diagram (see below).
 
    ![](https://github.com/edwinst/nes64-controller-modification/blob/main/nes64-installed-button-side.png?raw=true)
    ![](https://github.com/edwinst/nes64-controller-modification/blob/main/nes64-installed-cable-side.png?raw=true)
 
-1. apply isolation as needed
-1. make the cutout for the 3-way switch in the enclosure
+1. Apply isolation as needed.
+
+1. Make the cutout for the 3-way switch in the enclosure.
+
+   Depending on whether your controller already had a cutout for the original 2-way switch,
+   you need to enlarge or create the cutout in the enclosure. Make sure that the cutout is
+   just large enough to slide the switch to its outermost position in either direction.
 
    ![](https://github.com/edwinst/nes64-controller-modification/blob/main/nes64-enclosure-cuout.png?raw=true)
 
-1. test assembly
-1. apply hot glue or epoxy to mechanically stabilize the switch
-1. final assembly, enjoyment (XXX make sure the cable is properly positioned)
+1. Test assembly.
+
+   Before you glue the switch in place, I recommend that you assemble the controller provisionally in order
+   to test it. To be safe, test the intended connections using a multimeter first and only if they are
+   fine, connect the controller to your computer to test the functions of the buttons for all 3 switch
+   positions.
+
+1. Apply hot glue or epoxy to mechanically stabilize the switch.
+
+   If everything works fine, open the controller again and use hot glue or epoxy to secure the switch
+   in place from both sides of the PCB. Take care that the glue does not block any of the screws or plastic parts
+   of the enclosure upon assembly and also that the glue does not make its way into the contacts of the switch.
+
+1. Final assembly.
+
+   When you do the final assembly, check that the cable is properly secured in its strain relief.
+   
+1. Enjoy your new, improved controller!
 
 ## Wiring diagrams
 
