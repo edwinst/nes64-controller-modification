@@ -86,7 +86,7 @@ XXX diodes
 1. Solder the connections for the 3-way switch according to the wiring diagram (see below).
 
    Depending on which type of switch you got, there are two variants of wiring. The first, simpler one
-   (left schematic diagram) needs a 2x ON-ON-ON switch and requires only direct electrical connection.
+   (left schematic diagram) needs a 2x ON-ON-ON switch and requires only direct electrical connections.
    For the second one (right schematic diagram) a 1x ON-ON-ON switch suffices and the wiring uses
    two additional diodes to complete the circuit.
 
@@ -99,6 +99,8 @@ XXX diodes
    ![](https://github.com/edwinst/nes64-controller-modification/blob/main/nes64-installed-button-side.png?raw=true)
 
    Wiring with 1x ON-ON-ON switch and two diodes:
+   (Note: The switch in the image is actually a 2x ON-ON-ON switch but I used only one
+   leg of the switch in order to try out this circuit variant.)
 
    ![](https://github.com/edwinst/nes64-controller-modification/blob/main/nes64-diode-version-cable-side.png?raw=true)
    ![](https://github.com/edwinst/nes64-controller-modification/blob/main/nes64-diode-version-button-side.png?raw=true)
