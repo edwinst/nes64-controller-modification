@@ -85,9 +85,23 @@ XXX diodes
 
 1. Solder the connections for the 3-way switch according to the wiring diagram (see below).
 
+   Depending on which type of switch you got, there are two variants of wiring. The first, simpler one
+   (left schematic diagram) needs a 2x ON-ON-ON switch and requires only direct electrical connection.
+   For the second one (right schematic diagram) a 1x ON-ON-ON switch suffices and the wiring uses
+   two additional diodes to complete the circuit.
+
    ![](https://github.com/edwinst/nes64-controller-modification/blob/main/nes64-schematics.png?raw=true)
+
+   Wiring with 2x ON-ON-ON switch:
+   (Note that there is a connection to the "1 UP" pin of the cable on both sides of the PCB.)
+
    ![](https://github.com/edwinst/nes64-controller-modification/blob/main/nes64-installed-cable-side.png?raw=true)
    ![](https://github.com/edwinst/nes64-controller-modification/blob/main/nes64-installed-button-side.png?raw=true)
+
+   Wiring with 1x ON-ON-ON switch and two diodes:
+
+   ![](https://github.com/edwinst/nes64-controller-modification/blob/main/nes64-diode-version-cable-side.png?raw=true)
+   ![](https://github.com/edwinst/nes64-controller-modification/blob/main/nes64-diode-version-button-side.png?raw=true)
 
 1. Apply isolation as needed.
 
@@ -123,7 +137,3 @@ XXX diodes
    
 1. Enjoy your new, improved controller!
 
-## Diode version
-
-![](https://github.com/edwinst/nes64-controller-modification/blob/main/nes64-diode-version-cable-side.png?raw=true)
-![](https://github.com/edwinst/nes64-controller-modification/blob/main/nes64-diode-version-button-side.png?raw=true)
