@@ -62,3 +62,15 @@ XXX diodes
 
 XXX
 
+![](https://github.com/edwinst/nes64-controller-modification/blob/main/nes64-before-button-side.png?raw=true)
+![](https://github.com/edwinst/nes64-controller-modification/blob/main/nes64-before-cable-side.png?raw=true)
+![](https://github.com/edwinst/nes64-controller-modification/blob/main/nes64-cutout-after-button-side.png?raw=true)
+![](https://github.com/edwinst/nes64-controller-modification/blob/main/nes64-cutout-after-cable-side.png?raw=true)
+![](https://github.com/edwinst/nes64-controller-modification/blob/main/nes64-cutout-cable-side.png?raw=true)
+![](https://github.com/edwinst/nes64-controller-modification/blob/main/nes64-diode-version-button-side.png?raw=true)
+![](https://github.com/edwinst/nes64-controller-modification/blob/main/nes64-diode-version-cable-side.png?raw=true)
+![](https://github.com/edwinst/nes64-controller-modification/blob/main/nes64-enclosure-cuout.png?raw=true)
+![](https://github.com/edwinst/nes64-controller-modification/blob/main/nes64-installed-button-side.png?raw=true)
+![](https://github.com/edwinst/nes64-controller-modification/blob/main/nes64-installed-cable-side.png?raw=true)
+![](https://github.com/edwinst/nes64-controller-modification/blob/main/nes64-new-switch.png?raw=true)
+![](https://github.com/edwinst/nes64-controller-modification/blob/main/nes64-schematics.png?raw=true)
