@@ -134,6 +134,9 @@ XXX diodes
    in place from both sides of the PCB. Take care that the glue does not block any of the screws or plastic parts
    of the enclosure upon assembly and also that the glue does not make its way into the contacts of the switch.
 
+   When applying glue to the "button side" of the PCB, cover the button contact pads with some cardboard
+   to avoid dropping any glue on the contacts!
+
 1. Final assembly.
 
    When you do the final assembly, check that the cable is properly secured in its strain relief.
