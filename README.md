@@ -23,9 +23,9 @@ but still use "UP" on the map and in menus. I therefore came up with a modificat
 to the NES64 that replaces the 2-way switch by a 3-way switch, extending the
 options for the "up"-direction to:
 
-1. only "UP" works
-1. both "UP" and "A" work
-1. only "A" works
+1. Only "UP" works,
+1. both "UP" and "A" work, and
+1. only "A" works.
 
 The controller on the left in the image has been modified. Notice the larger switch at the shoulder of the controller:
 ![](https://github.com/edwinst/nes64-controller-modification/blob/main/nes64-new-switch.png?raw=true)
@@ -35,7 +35,7 @@ The controller on the left in the image has been modified. Notice the larger swi
 * the NES64 (PCB + the controller housing, pads, and cable)
 * a 3-way switch with 2 parallel ON-ON-ON contact configurations (see below for details)
 * a few inches of low-voltage wire
-* tool for cutting PCBs (Dremel with cutoff disk works well)
+* tool for cutting PCB and enclosure (Dremel with cutoff disk works well)
 * small tool for polishing (e.g. Dremel) or a piece of fine sand paper
 * soldering iron + accessories
 * a hot glue gun or some epoxy
@@ -49,7 +49,7 @@ XXX diodes
 
 ## How to do it
 
-1. open the NES64 and take out the PCB
+1. Open the NES64 and take the PCB out.
 
    Here is how the PCB looks before the modification. Note the location of the trace going from the switch to the "A" button:
    ![](https://github.com/edwinst/nes64-controller-modification/blob/main/nes64-before-cable-side.png?raw=true)
@@ -57,7 +57,7 @@ XXX diodes
    The other side looks like this. Note the location of the trace going from the switch to the "UP" button:
    ![](https://github.com/edwinst/nes64-controller-modification/blob/main/nes64-before-button-side.png?raw=true)
 
-1. mark the cutout on the PCB
+1. Mark the cutout for the new switch on the PCB.
 
    Mark the cutout you need to make for the switch on the PCB. The image below shows the dimensions
    I used for my type of switch. The tighter the switch fits the cutout, the easier it will be
@@ -67,10 +67,10 @@ XXX diodes
 
 1. Cut the PCB, then use the polishing tool to expose the traces going to the "A" button and to the "UP" button.
 
-   Note that for my type of switch, I had to cut grooves into the PCB at the end of the cutout to accomodate
+   Note that for my type of switch, I had to cut grooves into the PCB at the edges of the cutout to accomodate
    the mounting tabs of the switch.
 
-   Remove the coating covering the traces at the two indicated positions. The exposed part should be a few millimeters
+   At the two indicated positions, remove the coating that covers the traces on the PCB. The exposed part should be a few millimeters
    of shiny copper. I used a Dremel with a polishing tool for that, which worked well but take care that you work
    in a well ventilated area since the coating creates some nasty fumes. Alternatively, use some very fine sandpaper
    to remove the coating until you see clean copper.
@@ -85,10 +85,16 @@ XXX diodes
 
 1. Solder the connections for the 3-way switch according to the wiring diagram (see below).
 
-   ![](https://github.com/edwinst/nes64-controller-modification/blob/main/nes64-installed-button-side.png?raw=true)
+   ![](https://github.com/edwinst/nes64-controller-modification/blob/main/nes64-schematics.png?raw=true)
    ![](https://github.com/edwinst/nes64-controller-modification/blob/main/nes64-installed-cable-side.png?raw=true)
+   ![](https://github.com/edwinst/nes64-controller-modification/blob/main/nes64-installed-button-side.png?raw=true)
 
 1. Apply isolation as needed.
+
+   You need to avoid any unwanted electrical contact of the pins or other metal parts of the switch with
+   the exposed edges of the PCB around the cutout. I simply applied some tape whereever the cutout went
+   across copper traces in the PCB. If you use tape, only apply it after you have completed all the soldering,
+   otherwise the heat will destroy the tape and defeat its purpose.
 
 1. Make the cutout for the 3-way switch in the enclosure.
 
@@ -116,12 +122,6 @@ XXX diodes
    When you do the final assembly, check that the cable is properly secured in its strain relief.
    
 1. Enjoy your new, improved controller!
-
-## Wiring diagrams
-
-XXX
-
-![](https://github.com/edwinst/nes64-controller-modification/blob/main/nes64-schematics.png?raw=true)
 
 ## Diode version
 
