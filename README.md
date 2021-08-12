@@ -1,5 +1,9 @@
 # Modifying a NES64 controller with a 3-way switch
 
+by Edwin Steiner
+
+https://youtu.be/c/EdwinSteiner
+
 ## What this is about
 
 **TL;DR:** Modify the NES64 controller to have 3 options (UP, A, UP or A) for the "up" direction.
