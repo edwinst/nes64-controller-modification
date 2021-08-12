@@ -10,6 +10,9 @@ The [NES64](https://nes64.pryds.eu/) PCB is a great project
 for modifying Nintendo Entertainment System (NES) controllers for use
 with retro computers like the Commodore 64.
 
+**DISCLAIMER:** I used reproduced NES controllers. No original NES controllers
+were harmed in the course of this project!
+
 I find that these controllers make games, in particularly platformers, much
 more enjoyable to play. The NES64 in the version I bought has a little 2-way
 switch (located in its "shoulder") that defines whether the "up"-signal to the
