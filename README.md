@@ -123,7 +123,7 @@ below that uses two additional diodes. (You can use any run-of-the-mill diode, e
 
    Wiring with 1x ON-ON-ON switch and two diodes:
    (Note: The switch in the image is actually a 2x ON-ON-ON switch but I used only one
-   leg of the switch in order to try out this circuit variant.)
+   pole of the switch in order to try out this circuit variant.)
 
    ![](https://github.com/edwinst/nes64-controller-modification/blob/main/nes64-diode-version-cable-side.png?raw=true)
    ![](https://github.com/edwinst/nes64-controller-modification/blob/main/nes64-diode-version-button-side.png?raw=true)
