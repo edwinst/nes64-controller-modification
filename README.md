@@ -38,7 +38,7 @@ The controller on the left in the image has been modified. Notice the larger swi
 ## What you need
 
 * the NES64 (PCB + the controller housing, pads, and cable)
-* a 3-way switch with 2 parallel ON-ON-ON contact configurations (see below for details)
+* a 3-way slide switch with 2 poles with ON-ON-ON contact configurations (see below for details and alternatives)
 * a few inches of low-voltage wire
 * some insulating tape or sheet material
 * tool for cutting PCB and enclosure (Dremel with cutoff disk works well)
@@ -48,9 +48,18 @@ The controller on the left in the image has been modified. Notice the larger swi
 * screwdriver to open the NES64
 * ruler and marking pen
 
-XXX switch I used
-XXX switch print mounting
-XXX diodes
+[The switch I used](https://www.conrad.at/de/p/tru-components-schiebeschalter-250-v-ac-1-5-a-2-x-ein-ein-ein-1-st-1564872.html)
+is a "TRU COMPONENTS" slide switch 6259488 (EAN: 4016139210469):
+[datasheet](https://github.com/edwinst/nes64-controller-modification/blob/main/switch_datasheet.pdf).
+![](https://github.com/edwinst/nes64-controller-modification/blob/main/switch.png?raw=true)
+
+This switch was a perfect fit because it has 2 poles, each one with ON-ON-ON contact type, and the two rows of its pins,
+which are designed for vertical print mounting, have the right distance to straddle the edge of the PCB quite exactly.
+
+![](https://github.com/edwinst/nes64-controller-modification/blob/main/switch_connections.png?raw=true)
+
+If you want or have to use a different switch with only one pole (ON-ON-ON type), there is a second circuit variant
+below that uses two additional diodes. (You can use any run-of-the-mill diode, e.g. the 1N4148.)
 
 ## How to do it
 
@@ -80,6 +89,9 @@ XXX diodes
    in a well ventilated area since the coating creates some nasty fumes. Alternatively, use some very fine sandpaper
    to remove the coating until you see clean copper.
 
+   Note: It is better to expose the "A"-trace somewhat farther from the PCB edge than I did in the images. That should
+   make it easier to position the switch later.
+
    ![](https://github.com/edwinst/nes64-controller-modification/blob/main/nes64-cutout-after-cable-side.png?raw=true)
    ![](https://github.com/edwinst/nes64-controller-modification/blob/main/nes64-cutout-after-button-side.png?raw=true)
 
@@ -97,6 +109,12 @@ XXX diodes
 
    ![](https://github.com/edwinst/nes64-controller-modification/blob/main/nes64-schematics.png?raw=true)
 
+   The new part of the wiring (highlighted in the diagrams) is connected to the PCB in three places:
+   1. At the pad where the "1 UP" wire of the cable connects. There is a solder via connection at this
+      pad where you can easily connect wires from both sides of the PCB.
+   1. At the exposed part of the trace going to the "UP"-button.
+   1. At the exposed part of the trace going to the "A"-button.
+      
    Wiring with 2x ON-ON-ON switch:
    (Note that there is a connection to the "1 UP" pin of the cable on both sides of the PCB.)
 
