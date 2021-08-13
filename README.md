@@ -141,6 +141,9 @@ below that uses two additional diodes. (You can use any run-of-the-mill diode, e
    you need to enlarge or create the cutout in the enclosure. The cutout should be
    just large enough so you can slide the switch to its outermost position in either direction.
 
+   Note: If you get the enclosure without a pre-existing cutout, you can create a better fitting
+   cutout for the new switch than I did.
+
    ![](https://github.com/edwinst/nes64-controller-modification/blob/main/nes64-enclosure-cuout.png?raw=true)
 
 1. Test assembly.
