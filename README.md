@@ -6,7 +6,7 @@ https://youtube.com/c/EdwinSteiner
 
 ## What this is about
 
-**TL;DR:** Modify the NES64 controller to have 3 options (UP, A, UP or A) for the "up" direction.
+**TL;DR:** Modify the NES64 controller to have 3 options ("UP", "A", "UP or A") for the "up" direction.
 
 The [NES64](https://nes64.pryds.eu/) PCB is a great project
 for modifying Nintendo Entertainment System (NES) controllers for use
